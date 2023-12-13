@@ -5,15 +5,15 @@
 // style-dictionary build
 
 body {
-  background-color: $baby-blue;
+  background-color: $global-baby-blue;
   margin: 0px;
 }
 
 
 
 .left-content {
-  margin: $sp-50;
-  width: $sz-400;
+  margin: $global-sp-50;
+  width: $global-sz-400;
   // background-color: $login-content-background-color;
   // border-radius: $login-content-border-radius;
   // box-shadow: $login-content-shadow-x $login-content-shadow-y $login-content-shadow-blur $login-content-shadow-spread $login-content-shadow-color;
@@ -22,8 +22,8 @@ body {
 
 
 .logo {
-  margin-bottom: $sp-50;
-  min-height: $sz-50;
+  margin-bottom: $global-sp-50;
+  min-height: $global-sz-50;
   background-repeat: no-repeat;
   // background-image: $logo-image;
 }
@@ -35,22 +35,22 @@ body {
 
 
 h1 {
-  color: $steel-blue;
-  font-family: $primary-font;
-  font-weight: $font-weight-bold;
-  font-size: $font-size-h1;
-  line-height: $line-height-h1;
-  padding-bottom: $sp-20;
+  color: $global-steel-blue;
+  font-family: $global-primary-font;
+  font-weight: $global-font-weight-bold;
+  font-size: $global-font-size-h1;
+  line-height: $global-line-height-h1;
+  padding-bottom: $global-sp-20;
 }
 
 
 .body-text {
-  color: $steel-blue;
-  font-family: $primary-font;
-  font-weight: $font-weight-regular;
-  font-size: $font-size-h5;
-  line-height: $line-height-h6;
-  padding-bottom: $sp-20;
+  color: $global-steel-blue;
+  font-family: $global-primary-font;
+  font-weight: $global-font-weight-regular;
+  font-size: $global-font-size-h5;
+  line-height: $global-line-height-h6;
+  padding-bottom: $global-sp-20;
 }
 
 
@@ -66,24 +66,24 @@ h1 {
 
 #email {
   border-radius: 0px;
-  width: $sz-400;
-  height: $sz-50;
-  padding-top: $sp-15;
-  padding-bottom: $sp-15;
-  padding-left: $sp-20;
-  padding-right: $sp-20;
-  border-color: $steel-blue;
-  border-top-left-radius: $border-radius-sm;
-  border-top-right-radius: $border-radius-sm;
-  border-width: $border-width-sm;
-  background-color: $white;
+  width: $global-sz-400;
+  height: $global-sz-50;
+  padding-top: $global-sp-15;
+  padding-bottom: $global-sp-15;
+  padding-left: $global-sp-20;
+  padding-right: $global-sp-20;
+  border-color: $global-steel-blue;
+  border-top-left-radius: $global-border-radius-sm;
+  border-top-right-radius: $global-border-radius-sm;
+  border-width: $global-border-width-sm;
+  background-color: $global-white;
 
   &::placeholder {
-    color: $steel-blue;
-    font-family: $primary-font;
-    font-weight: $font-weight-regular;
-    font-size: $font-size-h6;
-    line-height: $line-height-h6;
+    color: $global-steel-blue;
+    font-family: $global-primary-font;
+    font-weight: $global-font-weight-regular;
+    font-size: $global-font-size-h6;
+    line-height: $global-line-height-h6;
   }
 }
 
@@ -91,53 +91,53 @@ h1 {
 
 #password {
   border-radius: 0px;
-  width: $sz-400;
-  height: $sz-50;
-  padding-top: $sp-15;
-  padding-bottom: $sp-15;
-  padding-left: $sp-20;
-  padding-right: $sp-20;
-  border-color: $steel-blue;
-  border-bottom-left-radius: $border-radius-sm;
-  border-bottom-right-radius: $border-radius-sm;
-  border-left-width: $border-width-sm;
-  border-right-width: $border-width-sm;
-  border-bottom-width: $border-width-sm;
+  width: $global-sz-400;
+  height: $global-sz-50;
+  padding-top: $global-sp-15;
+  padding-bottom: $global-sp-15;
+  padding-left: $global-sp-20;
+  padding-right: $global-sp-20;
+  border-color: $global-steel-blue;
+  border-bottom-left-radius: $global-border-radius-sm;
+  border-bottom-right-radius: $global-border-radius-sm;
+  border-left-width: $global-border-width-sm;
+  border-right-width: $global-border-width-sm;
+  border-bottom-width: $global-border-width-sm;
   border-top-width: 0px;
-  background-color: $white;
+  background-color: $global-white;
 
   &::placeholder {
-    color: $steel-blue;
-    font-family: $primary-font;
-    font-weight: $font-weight-regular;
-    font-size: $font-size-h6;
-    line-height: $line-height-h6;
+    color: $global-steel-blue;
+    font-family: $global-primary-font;
+    font-weight: $global-font-weight-regular;
+    font-size: $global-font-size-h6;
+    line-height: $global-line-height-h6;
   }
   // margin-top: -1px;
 }
 
 
 .btn-primary {
-  margin-top: $sp-20;
-  margin-bottom: $sp-20;
-  background-color: $royal-blue;
-  border-radius: $border-radius-md;
+  margin-top: $global-sp-20;
+  margin-bottom: $global-sp-20;
+  background-color: $global-royal-blue;
+  border-radius: $global-border-radius-md;
   border: none;
-  padding-top: $sp-15;
-  padding-bottom: $sp-15;
-  padding-left: $sp-20;
-  padding-right: $sp-20;
-  color: $white;
-  font-family: $primary-font;
-  font-weight: $font-weight-bold;
-  font-size: $font-size-h5;
-  line-height: $line-height-h5;
+  padding-top: $global-sp-15;
+  padding-bottom: $global-sp-15;
+  padding-left: $global-sp-20;
+  padding-right: $global-sp-20;
+  color: $global-white;
+  font-family: $global-primary-font;
+  font-weight: $global-font-weight-bold;
+  font-size: $global-font-size-h5;
+  line-height: $global-line-height-h5;
 }
 
 
 .text-link {
-  font-weight: $font-weight-bold;
-  color: $royal-blue;
+  font-weight: $global-font-weight-bold;
+  color: $global-royal-blue;
 }
 
 p.body-text {
